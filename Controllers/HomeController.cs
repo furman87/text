@@ -12,7 +12,13 @@ namespace Texting.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var strList = new List<string>();
+            var envVars = Environment.GetEnvironmentVariables();
+
+            foreach (string envVar in envVars.Keys) {
+                strList.Add(envVar);
+            }
+            return View(strList);
         }
 
         public IActionResult Privacy()
