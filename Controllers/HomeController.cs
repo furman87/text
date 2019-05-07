@@ -15,9 +15,12 @@ namespace Texting.Controllers
             var strList = new List<string>();
             var envVars = Environment.GetEnvironmentVariables();
 
-            foreach (string envVar in envVars.Keys) {
+            foreach (string envVar in envVars.Keys)
+            {
                 strList.Add(envVar);
             }
+
+            strList.Sort();
             return View(strList);
         }
 

@@ -28,3 +28,5 @@ D:\Dev\Texting\obj\Debug\netcoreapp2.2\Texting.Views.pdb
 D:\Dev\Texting\obj\Debug\netcoreapp2.2\Texting.dll
 D:\Dev\Texting\obj\Debug\netcoreapp2.2\Texting.pdb
 D:\Dev\Texting\obj\Debug\netcoreapp2.2\Texting.csproj.CopyComplete
+D:\Dev\Texting\obj\Debug\netcoreapp2.2\Razor\Views\Text\Send.g.cshtml.cs
+D:\Dev\Texting\obj\Debug\netcoreapp2.2\Razor\Views\Text\Index.g.cshtml.cs

@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Send A Text";
+}
+
+@model Texting.Models.SendTextFormModel
+
+<form asp-action="Send" asp-controller="Text">
+    <label asp-for="PhoneNumber"></label>
+    <input asp-for="PhoneNumber" placeholder="Phone number goes here"/>
+
+    <label asp-for="TextMessage"></label>
+    <input asp-for="TextMessage" placeholder="Message goes here"/>
+
+    <input type="submit" />
+</form>

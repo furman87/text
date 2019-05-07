@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "591103b2c40874b24a64db5d2ce47e60f35ae0bf"
   },
   "compilationOptions": {
     "defines": [
@@ -26,13 +26,31 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
-          "Microsoft.NETCore.App": "2.2.0"
+          "Microsoft.NETCore.App": "2.2.0",
+          "Twilio": "5.28.4"
         },
         "runtime": {
           "Texting.dll": {}
         },
         "compile": {
           "Texting.dll": {}
+        }
+      },
+      "Twilio/5.28.4": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.3.0",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Collections.Specialized": "4.3.0",
+          "System.IdentityModel.Tokens.Jwt": "5.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Twilio.dll": {
+            "assemblyVersion": "5.28.4.0",
+            "fileVersion": "5.28.4.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Twilio.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3236,6 +3254,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Twilio/5.28.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sEI6F2opCRyrLzjNKdxgvFkEBv5qt3SUtXlBLjzPFTXdfVNpW/UjiYz4KrpdREyGyY924vlULQ0N0XDClcvpBQ==",
+      "path": "twilio/5.28.4",
+      "hashPath": "twilio.5.28.4.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

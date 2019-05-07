@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Text Sent";
+}
+
+@using Twilio.Rest.Api.V2010.Account
+@model Twilio.Rest.Api.V2010.Account.MessageResource
+
+<div>
+    <p>Message @(Model.Sid) was sent</p>
+</div>

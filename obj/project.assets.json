@@ -4438,6 +4438,21 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Twilio/5.28.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "5.3.0",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Collections.Specialized": "4.3.0",
+          "System.IdentityModel.Tokens.Jwt": "5.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Twilio.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Twilio.dll": {}
+        }
       }
     }
   },
@@ -12061,13 +12076,33 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Twilio/5.28.4": {
+      "sha512": "sEI6F2opCRyrLzjNKdxgvFkEBv5qt3SUtXlBLjzPFTXdfVNpW/UjiYz4KrpdREyGyY924vlULQ0N0XDClcvpBQ==",
+      "type": "package",
+      "path": "twilio/5.28.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Twilio.dll",
+        "lib/net35/Twilio.xml",
+        "lib/net451/Twilio.dll",
+        "lib/net451/Twilio.xml",
+        "lib/netstandard1.4/Twilio.dll",
+        "lib/netstandard1.4/Twilio.xml",
+        "lib/netstandard2.0/Twilio.dll",
+        "lib/netstandard2.0/Twilio.xml",
+        "twilio.5.28.4.nupkg.sha512",
+        "twilio.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Twilio >= 5.28.4"
     ]
   },
   "packageFolders": {
@@ -12125,6 +12160,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Twilio": {
+            "target": "Package",
+            "version": "[5.28.4, )"
           }
         },
         "imports": [
